@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-container div {
+    margin: 5px 0;
+}
+
+.limbs, .genders, .radios, #gender-block, #limbs-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#gender-block .radios {
+    width: 82%;
+}
+
+.radios {
+    width: 65%;
+    padding: 0 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+#send-btn {
+    width: 100%;
+    background-color: #f14d34;
+    border-color: #f14d34;
+}
+
+#policy a {
+    color: #f14d34;
+}
+
+.error {
+    color: rgba(245, 46, 46, 1);
+    border: 1px solid #f14d34;
+    box-shadow: 0 0 10px #f35b439a;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.form-container .form-control:focus {
+    outline: none !important;
+    border: 1px solid #f14d34;
+    box-shadow: 0 0 10px #f35b439a;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin: 50px auto;
+}
+
+.login div {
+    margin-bottom: 7px;
+}
