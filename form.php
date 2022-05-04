@@ -20,6 +20,7 @@
     ?>
     <div class="form-container">
         <form method="POST" action="">
+            <a href="login.php?logout=1" <?php (empty( $_SESSION['uid'])) ? print('style="display:none"') : print('style="display:inline-block"'); ?>>Выйти</a>
             <div class="name-block">
                 <span class="input-group-text block-title" >Имя</span>
                 <input type="text" class="form-control" name="name" 
